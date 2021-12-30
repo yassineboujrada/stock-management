@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.all{
+    width: 100vw;
+    height: 100vh;
+}
+
+.ligne_profil{
+    height: 8vh;
+    background-color: #d3d3d3;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+.name_magazin{
+    width:18vw;
+    text-align: center;
+    padding-top: 1%;
+    font-family: Century Gothic;
+    display: block;
+}
+.img_profil{
+    width: 3.5vw;
+    height: 7vh;
+    border-radius: 25px;
+    display: block;
+}
+
+.navbar_profil{
+    width:17vw;
+    height: 91.9vh;
+    background-color: #191970;
+    z-index: 999;
+}
+
+.navbar_element{
+    height: 4vw;
+    text-align: center;
+    padding-top: 6%;
+}
+.navbar_element:hover{
+    background-color: #23297a;
+}
+.navbar_menu{
+    list-style-type: none;
+}
+.navbar_links{
+    text-decoration: none;
+    color: #cac1c1;
+}
+.setting{
+    height: 8vh;
+    margin-top: 35vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+.setting:hover{
+    background-color: #23297a;
+}
+.setting_icon{
+    width: 3vw;
+    height: 6vh;
+}
+.set{
+    color: #cac1c1;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.element_of_content{
+    margin-left: 17%;
+    margin-top: -42.7%;
+    /* width: 81vw; */
+    height: 91.9vh;
+}
+

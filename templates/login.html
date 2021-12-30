@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <link rel="stylesheet" href="{{url_for('static',filename='/design.css')}}">
+    <div class="login_div">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %} 
+            {% for category,msg in messages %}
+            <p class="{{category}}">{{ msg }}</p>
+            {% endfor %} 
+            {% endif %} 
+        {% endwith %}
+        <form id="form_login" action="" id="form" method="POST">
+            <input id="email" type="text" name="email" placeholder="Entrer votre email" required><br><br>
+            <input id="password" type="password" name="password" placeholder="Entrer votre email" required><br><br>
+            <button id="btn_login" onclick="">Login</button>
+        </form>
+    </div>
+    <script src="{{url_for('static',filename='/animation.js')}} " async defer></script>
+</body>
+</html>

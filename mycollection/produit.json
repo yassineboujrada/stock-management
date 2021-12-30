@@ -1,0 +1,185 @@
+[{
+  "_id": 1,
+  "categorie": "Boissons",
+  "nomProduit": "Eau minérale",
+  "img": "eauminerale.jpg",
+  "Qte": 240,
+  "prix": 30,
+  "description": "Les eaux minérales sont des eaux potables qui répondent à une réglementation précise en Europe. Elles contiennent des teneurs en minéraux et en oligoéléments fixes et susceptibles de leur donner certaines vertus thérapeutiques."
+},{
+  "_id": 2,
+  "categorie": "Boissons",
+  "nomProduit": "Le lait",
+  "img": "lait.jpg",
+  "Qte": 425,
+  "prix": 8,
+  "description": "Le lait est un liquide biologique comestible généralement de couleur blanchâtre produit par les glandes mammaires des mammifères femelles. Aliment complet équilibré, il est la seule source de nutriments pour les jeunes mammifères au tout début de leur vie avant qu'ils puissent digérer d'autres types d'aliments"
+},{
+  "_id": 3,
+  "categorie": "Boissons",
+  "nomProduit": "Boisson gazeuse",
+  "img": "boissonGazeuse.jpg",
+  "Qte": 300,
+  "prix": 11,
+  "description": "Boisson non alcoolisée qui contient de l'eau, des édulcorants naturels ou artificiels et des substances aromatisantes à base de fruits ou de plantes, et dans laquelle est dissous du gaz carbonique."
+},{
+  "_id": 4,
+  "categorie": "Boissons",
+  "nomProduit": "Le jus",
+  "img": "jus.jpg",
+  "Qte": 90,
+  "prix": 17,
+  "description": "Le jus, qui a été concentré par évaporation afin de faciliter stockage et transport, est finalement reconstitué avec le même volume d'eau que celui extrait pendant le processus de concentration. Il s'agit d'un jus de fruits 100% sans aucun sucre ajouté."
+},{
+  "_id": 5,
+  "categorie": "Boissons",
+  "nomProduit": "Danone",
+  "img": "danone.jpg",
+  "Qte": 40,
+  "prix": 7,
+  "description": "Avec pour mission d'apporter la santé par l'alimentation au plus grand nombre, Danone est l'un des leaders mondiaux dans le secteur alimentaire, à travers ses quatre métiers : les Produits Laitiers et d'Origine Végétale, les Eaux, la Nutrition Infantile et la Nutrition Médicale.."
+},{
+  "_id": 6,
+  "categorie": "Produits de nettoyage",
+  "nomProduit": "Javel",
+  "img": "javel.jpg",
+  "Qte": 82,
+  "prix": 10,
+  "description": "L'eau de Javel est une solution liquide oxydante fréquemment utilisée comme désinfectant et comme décolorant.."
+},{
+  "_id": 7,
+  "categorie": "Produits de nettoyage",
+  "nomProduit": "Sanicroix",
+  "img": "sanicroix.jpg",
+  "Qte": 16,
+  "prix": 15,
+  "description": "Un détergent (ou agent de surface, détersif, surfactant) est un composé chimique, généralement issu du pétrole, doté de propriétés tensioactives, ce qui le rend capable d'enlever les salissures..."
+},{
+  "_id": 8,
+  "categorie": "Produits de nettoyage",
+  "nomProduit": "Tide",
+  "img": "tide.jpg",
+  "Qte": 23,
+  "prix": 16,
+  "description": "Tide is an American brand of laundry detergent manufactured and marketed by Procter & Gamble. Introduced in 1946, it is the highest selling detergent brand in the world, with an estimated 14.3 percent of the global market...."
+},{
+  "_id": 9,
+  "categorie": "Produits de nettoyage",
+  "nomProduit": "Savon",
+  "img": "savon.jpg",
+  "Qte": 20,
+  "prix": 20,
+  "description": "Le savon est un produit liquide ou solide composé de molécules amphiphiles obtenues par réaction chimique entre un corps gras et une base forte, spécifiquement l'hydroxyde de sodium pour le savon ou l'hydroxyde de potassium pour le savon noir, c'est donc le sel d'un corps gras et du potassium ou du sodium...."
+},{
+  "_id": 10,
+  "categorie": "Ustensiles ménagers",
+  "nomProduit": "Cuilléres",
+  "img": "Cuilleres.jpg",
+  "Qte": 500,
+  "prix": 16,
+  "description": "Une cuillère (ou cuiller) est un ustensile de table ou de cuisine. Elle est constituée par son cuilleron, extrémité creuse et concave prolongée par un manche plus fin....."
+},{
+  "_id": 11,
+  "categorie": "Ustensiles ménagers",
+  "nomProduit": "Fourchette",
+  "img": "fourchette.jpg",
+  "Qte": 500,
+  "prix": 14,
+  "description": "La fourchette est un couvert de table ou un ustensile de cuisine permettant d'attraper les aliments, sans les toucher directement avec les doigts. Elle est constituée de deux à quatre extrémités pointues, pour saisir ou ramasser la nourriture, et d'un manche pour être tenue aisément......"
+},{
+  "_id": 12,
+  "categorie": "Ustensiles ménagers",
+  "nomProduit": "Poêle ",
+  "img": "poele.jpg",
+  "Qte": 80,
+  "prix": 49,
+  "description": "Une poêle est un ustensile de cuisine utilisé pour la cuisson d'aliments solides tels que la viande, les légumes, les œufs… On parle alors de « cuisson à la poêle », ou « faire sauter à la poêle ». On peut aussi utiliser le verbe du premier groupe poêler....."
+},{
+  "_id": 13,
+  "categorie": "Nourriture en boîte",
+  "nomProduit": "Poisson en boîte ",
+  "img": "poisson.jpg",
+  "Qte": 80,
+  "prix": 15,
+  "description": "La viande et le poisson apportent également du fer. Le poisson, notamment les poissons dits « gras » (saumon, maquereau, sardine, hareng…) nous apportent des matières grasses essentielles (comme les Oméga 3) dont le rôle protecteur sur le système cardio-vasculaire est reconnu. ».."
+},{
+  "_id": 14,
+  "categorie": "Denrées alimentaires",
+  "nomProduit": "Fromage",
+  "img": "fromage.jpg",
+  "Qte": 47,
+  "prix": 15,
+  "description": "La vache qui rit est une marque commerciale désignant un mélange de fromages fondus de fabrication industrielle (autrefois dénommé « crème de gruyère »), de la société Fromageries Bel. Le premier nom de La vache qui rit était « Fromage moderne »..."
+},{
+  "_id": 15,
+  "categorie": "Denrées alimentaires",
+  "nomProduit": "L'Huil de table",
+  "img": "huil.jpg",
+  "Qte": 24,
+  "prix": 26,
+  "description": "L'huile est une matière grasse à l'état liquide. Elle ne se mélange pas à l'eau. Les huiles utilisées en cuisine sont d'origine végétale et sont constituées d'acide gras. L'huile végétale est fabriquée à partir des graines de plantes riches en lipide..."
+},{
+  "_id": 16,
+  "categorie": "Denrées alimentaires",
+  "nomProduit": "Café",
+  "img": "cafe.jpg",
+  "Qte": 33,
+  "prix": 13,
+  "description": "Nescafé es una marca de café instantáneo, de las más vendidas en el mundo, de la compañía Nestlé. El nombre es una conjunción de las palabras ' Nestlé ' y el producto pulverizado, el café. Nescafé fue introducido en Suiza el 1 de abril de 1938​ después de ser tratado por siete años por Max Morgenthaler y equipo..."
+},{
+  "_id": 17,
+  "categorie": "Denrées alimentaires",
+  "nomProduit": "Couscous",
+  "img": "couscous.jpg",
+  "Qte": 12,
+  "prix": 24,
+  "description": "Le couscous est d'une part une semoule de blé dur préparée à l'huile d'olive et d'autre part, une spécialité culinaire issue de la cuisine berbère, à base de couscous, de légumes, d'épices, d'huile d'olive et de viande ou de poisson..."
+},{
+  "_id": 18,
+  "categorie": "Nourriture en boîte",
+  "nomProduit": "Viande en boîte ",
+  "img": "viandeBoit.jpg",
+  "Qte": 50,
+  "prix": 13,
+  "description": "La viande est un aliment constitué des tissus musculaires de certains animaux, notamment les mammifères, les oiseaux, les reptiles, mais aussi certains poissons comme les requins. Le terme peut inclure le gras, les nerfs, et le sang associés à ces tissus, et dans une acception plus générale les abats et les os (moelles, cartilages servant aussi pour réaliser les préparations en gelées, etc.).."
+},{
+  "_id": 19,
+  "categorie": "Denrées alimentaires",
+  "nomProduit": "Le Farine",
+  "img": "farine.jpg",
+  "Qte": 10,
+  "prix": 62,
+  "description": "La farine est une poudre obtenue en broyant et en moulant des céréales ou d'autres produits agricoles alimentaires solides, souvent des graines. La farine issue de céréales contenant du gluten, comme le blé, est l'un des principaux éléments de l'alimentation de certains peuples du monde.."
+},{
+  "_id": 20,
+  "categorie": "Denrées alimentaires",
+  "nomProduit": "Le Sucre",
+  "img": "sucre.jpg",
+  "Qte": 28,
+  "prix": 16,
+  "description": "Le sucre est une substance de saveur douce extraite principalement de la canne à sucre et de la betterave sucrière. Le sucre est une molécule de saccharose (glucose + fructose). Il est également possible d'obtenir du sucre à partir d'autres plantes..."
+},{
+  "_id": 21,
+  "categorie": "Denrées alimentaires",
+  "nomProduit": "Le Thé",
+  "img": "the.jpg",
+  "Qte": 42,
+  "prix": 9,
+  "description": "Le thé au Maroc est une boisson essentielle, le pays étant le premier importateur de thé vert au monde. L'infusion d'herbes est populaire dans le pays longtemps avant l'arrivée du thé au Maroc..."
+},{
+  "_id": 22,
+  "categorie": "Denrées alimentaires",
+  "nomProduit": "Le Beurre",
+  "img": "beurre.jpg",
+  "Qte": 33,
+  "prix": 8,
+  "description": "Le beurre de Marrakech est une substance psychotrope à base de cannabis. Celle-ci est constituée de beurre dans lequel a été dissous le THC qui est la substance active du cannabis..."
+},{
+  "_id": 23,
+  "categorie": "Denrées alimentaires",
+  "nomProduit": "Le Confiture",
+  "img": "confiture.jpg",
+  "Qte": 21,
+  "prix": 8,
+  "description": "La confiture est un mélange gélifié de sucre, de pulpe ou de purée d'une ou plusieurs espèces de fruits, obtenu, le plus souvent, en faisant réduire et confire, dans une bassine à confiture, certains fruits avec un poids équivalent de sucre..."
+}]
