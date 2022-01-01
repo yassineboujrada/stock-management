@@ -53,7 +53,7 @@
 }
 .setting{
     height: 8vh;
-    margin-top: 35vh;
+    margin-top: 51vh;
     display: flex;
     justify-content: center;
     padding-top: 2%;
@@ -77,3 +77,50 @@
     height: 91.9vh;
 }
 
+
+.count{
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.courbe_des_ventes{
+    display: flex;
+    justify-content: center;
+}
+.courbe{
+    background-color: #cac1c1;
+    height: 52vh;
+    width: 50vw;
+}
+
+#count_client,#total_price,#count_articles{
+    border: 1px solid black;
+    height: 22vh;
+    width: 21vw;
+    margin-top: 4vh;
+    border-radius: 10px;
+    background-color: #191970;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.clien{
+    margin-top: 4vh;
+    margin-left: 1vw;
+}
+.count_cl{
+    margin-top: 4vh;
+    margin-left: 4vw;
+}
+.client_icon{
+    width: 4vw;
+    height: 5vh;
+    margin-top: 6vh;
+}
+
+.diagramme{
+    height: 50vh;
+    width: 56vw;
+}

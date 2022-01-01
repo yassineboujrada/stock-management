@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.login_div{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    background-image: url("/static/pictures/bbbg.jpg");
+    background-repeat: no-repeat;
+    size: cover;
+}
+#form_login{
+    width: 25%;
+    height: 30vh;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    margin-top: 30vh;
+    padding-top: 4vh;
+    background-color:#035096;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px #002147;
+}
+
+#email,#password{
+    width: 65%;
+    height: 5vh; 
+    border-radius: 15px;
+    font-size: 15px;
+    border: 1px solid;
+    outline: none;
+    padding-left: 10px;
+}
+#btn_login{
+    width: 35%;
+    height: 5vh; 
+    border-radius: 25px;
+    color:#fff;
+    background-color: blueviolet;
+    border: none;
+}
+
+.form_add{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add,#drop{
+    height: 60vh;
+    width: 25vw;
+    padding-top: 2vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    background-color: #f1e8dd;
+}
+#drop{
+    height: 40vh;
+}
+#cat,#name_prod,#qte,#prix,#descr{
+    border: 1px solid;
+    border-radius: 15px;
+    width: 18vw;
+    height: 4vh;
+    padding-left: 1vw;
+    outline: none;
+    margin-top: 2vh;
+    margin-left: 2.5vw;
+}
+#descr{
+    height: 14vh;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    height: 6vh;
+}
+#btn_add_prod,#btn_cancel_prod,#btn_drop_prod{
+    width: 6vw;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+}
+#btn_cancel_prod{
+    background-color: #d6d6d6;
+    color: rgb(228, 65, 65);
+}
+#btn_drop_prod{
+    background-color: rgb(228, 65, 65);
+}
+#btn_add_prod{
+    background-color: #009879;
+}
+
+.success{
+    color:#009879;
+    font-size: 20px;
+}
+
+.problem{
+    color: rgb(228, 65, 65);
+    font-size: 20px;
+}
+.msg{
+    height: 8vh;
+    text-align: center;
+}

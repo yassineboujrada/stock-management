@@ -1,0 +1,30 @@
+{% extends "general.html" %}
+{% block content %} 
+<link rel="stylesheet" href="{{url_for('static',filename='/designe/client.css')}}">
+    <br>
+    <div class="client_info">Client informations :</div>
+    <br>
+    <div class="client_table" id="client">
+        <table class="styled-table">				<!-- create an table object -->
+            <tr>				<!-- "tr" represents a row -->
+              <th>CIN</th>	<!-- use "th" to indicate header row -->
+              <th>Full Name</th>
+              <th>City</th>
+              <th>Age</th>
+              <th>Email</th>
+              <th>Phone Number</th>
+            </tr> 
+            {% for info in table_info %}
+            <tr>				<!-- once again use tr for another row -->
+              <td>{{ info.ID }}</td>	<!-- use "td" henceforth for normal rows -->
+              <td>{{ info.LastName +" "+ info.FirstName}}</td>
+              <td>{{ info.City }}</td>
+              <td>{{ info.Age }}</td>
+              <td>{{ info.email }}</td>
+              <td>{{ info.tele }}</td>
+            
+            </tr>    
+            {% endfor %}
+          </table>
+    </div>
+{% endblock content %}

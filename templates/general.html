@@ -5,34 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gestion</title>
-    <link rel="stylesheet" href="{{url_for('static',filename='/dashbord.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='/designe/dashbord.css')}}">
 </head>
 <body>
     <div class="all" >
         <div class="ligne_profil">
             <div class="name_magazin">Gestion de Stocke</div>
-            <div ><img src="../static/beurre.jpg" class="img_profil"></div>
+            <div ><img src="../static/pictures/beurre.jpg" class="img_profil"></div>
         </div>
         <div class="navbar_profil"><br>
             <ul class="navbar_menu">
-                <li class="navbar_element">
-                    <a href="#home" class="navbar_links" id="home-page">Dasbord</a>
+                <li class="navbar_element" onclick="location='/home'">
+                    <a href="/home" class="navbar_links" id="home-page">Dashbord</a>
                 </li>
-                <li class="navbar_element">
-                    <a href="#about" class="navbar_links" id="about-page">Client</a>
+                <li class="navbar_element" onclick="location='/client_information'">
+                    <a href="/client_information" class="navbar_links" id="about-page">Client</a>
                 </li>
-                <li class="navbar_element">
-                    <a href="#sevices" class="navbar_links" id="sevices-page">Stock</a>
-                </li>
-                <li class="navbar_element">
-                    <a href="#sevices" class="navbar_links" id="sevices-page">Shopping list</a>
-                </li>
-                <li class="navbar_element">
-                    <a href="#about" class="navbar_links" id="about-page">Livraison</a>
+                <li class="navbar_element" class="test" onclick="location='/product'">
+                    <a href="/product" class="navbar_links" id="sevices-page" >Stock</a>
                 </li>
             </ul>
-            <div class="setting" onclick="location='#home'">
-                <img src="../static/setting.jpg" class="setting_icon">
+            <div class="setting" onclick="location='/settings'">
+                <img src="../static/pictures/setting.jpg" class="setting_icon">
                 <div class="set">Settings</div>
             </div>
         </div>

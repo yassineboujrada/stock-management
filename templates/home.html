@@ -1,5 +1,33 @@
 {% extends "general.html" %}
 {% block content %} 
+    <link rel="stylesheet" href="{{url_for('static',filename='/dashbord.css')}}">
+    <br>
+    <div class="count">
+        <div id="count_client">
+            <div>
+                <p class="clien">Number of Client</p>
+                <p class="count_cl">{{ cont_product }}</p>
+            </div>
+            <img src="../static/pictures/client.png" class="client_icon">
+        </div>
 
-
+        <div id="total_price">
+            <div>
+                <p class="clien">Total income</p>
+                <p class="count_cl">{{total}} dh</p>
+            </div>
+            <img src="../static/pictures/amount.png" class="client_icon">
+        </div>
+        <div id="count_articles">
+            <div>
+                <p class="clien">Total products</p>
+                <p class="count_cl">{{product}}</p>
+            </div>
+            <img src="../static/pictures/products-icon-png-9.jpg" style="width: 4vw;height: 7vh;margin-top: 6vh;">
+        </div>
+    </div>
+    <br>
+    <div class="courbe_des_ventes">
+        <img src="../static/diagramme.png" class="diagramme">
+    </div>
 {% endblock content %}

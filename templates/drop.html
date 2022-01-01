@@ -1,0 +1,24 @@
+{% extends "general.html" %}
+{% block content %} 
+<link rel="stylesheet" href="{{url_for('static',filename='/designe/design.css')}}">
+    <br>
+    <div class="msg">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %} 
+            {% for category,msg in messages %}
+            <p class="{{category}}">{{ msg }}</p>
+            {% endfor %} 
+            {% endif %} 
+        {% endwith %}
+    </div>
+    <div class="form_add">
+        <form action="" method="POST" id="drop">
+            <input type="text" name="categori" id="cat" placeholder="Categorie of product" required><br>
+            <input type="text" name="product" id="name_prod" placeholder="name of product" required><br><br><br>
+            <div class="btns">
+                <button id="btn_drop_prod" >Drop</button>
+                <button id="btn_cancel_prod" onclick="location='/product'">Cancel</button>
+            </div>
+        </form>
+    </div>
+{% endblock content %}
